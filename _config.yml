@@ -90,7 +90,7 @@ JB :
     #provider : false
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : zengyue
     livefyre :
       site_id : 123
     intensedebate :
