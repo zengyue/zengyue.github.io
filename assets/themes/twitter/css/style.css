@@ -81,6 +81,11 @@ html, body {
     top: 0;
     z-index: 999;
 }
+@media (max-width:767px){
+  .v-fork-me {
+    display: none;
+  }
+}
 
 /** violet-post **/
 .violet-post {height: auto; min-height: 520px;}
