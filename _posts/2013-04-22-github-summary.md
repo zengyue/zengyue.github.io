@@ -9,4 +9,4 @@ description: "github的使用总结，主要用来记录平时在使用github过
 
 ##github api
 在网上看到一张很不错的github的思维导图
-![github思维导图](/demo/img/git-api.png)
+[![github思维导图](/demo/img/git-api.png)](/demo/img/git-api.png)
