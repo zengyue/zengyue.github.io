@@ -24,6 +24,7 @@ tagline:
             </div>
         </article><!-- //v-post-excerpt -->
         {% endfor %}
+        
         {% for npost in site.posts limit:3 offset:5  %}             
         <article class="v-post-list fn-clear">
             <p class="v-date"><span>&#8227;</span><time pubdate="{{ npost.date | date_to_utc | date: '%Y-%m-%d' }}">{{ npost.date | date_to_utc | date: "%Y-%m-%d" }}</time></p>
