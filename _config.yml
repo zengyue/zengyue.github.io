@@ -9,7 +9,7 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 索丘
+title : 索丘的博客
 url: http://zengyue.github.io
 feed: /atom.xml
 tagline: 前端开发，javascript，html5，css3，用户体验，交互设计
