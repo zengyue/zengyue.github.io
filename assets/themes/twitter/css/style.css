@@ -6,8 +6,10 @@ html, body {
 .navbar {
   margin-bottom: 0;
 }
-.navbar .container{
-  width: 1170px;
+@media (min-width: 1200px){
+  .navbar .container{
+    width: 1170px;
+  }
 }
 .container > footer {
   margin-top: 20px;
