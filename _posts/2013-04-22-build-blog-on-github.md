@@ -1,9 +1,10 @@
 ---
 layout: post
+title: "使用github+jekyll搭建blog环境"
 category: tutorials
 tagline: github pages
 tags: [github, jekyll]
-description: "使用github+jekyll搭建blog环境"
+description: "如何使用github+jekyll搭建blog环境"
 ---
 花了两天时间终于成功在github使用jekyll把blog搭建出来，来做个小结，以作后记
 
