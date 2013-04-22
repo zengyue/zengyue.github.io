@@ -29,106 +29,19 @@
   </head>
 
   <body>
-
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container">
-
-          <div class="violet-logo">
-                <div class="v-position-1">
-                    <div class="v-petal v-deg-0 v-color-1">
-                        <div class="v-petal-top">
-                        </div>
-                        <div class="v-petal-left">
-                            <div class="v-petal-left-det">
-                            </div>
-                        </div>
-                        <div class="v-petal-right">
-                            <div class="v-petal-right-det">
-                            </div>
-                        </div>
-                    </div><!-- v-petal -->
-                </div>
-                <div class="v-position-2">
-                    <div class="v-petal v-deg-60 v-color-2">
-                        <div class="v-petal-top">
-                        </div>
-                        <div class="v-petal-left">
-                            <div class="v-petal-left-det">
-                            </div>
-                        </div>
-                        <div class="v-petal-right">
-                            <div class="v-petal-right-det">
-                            </div>
-                        </div>
-                    </div><!-- v-petal -->
-                </div>
-                <div class="v-position-3">
-                    <div class="v-petal v-deg-120 v-color-3">
-                        <div class="v-petal-top">
-                        </div>
-                        <div class="v-petal-left">
-                            <div class="v-petal-left-det">
-                            </div>
-                        </div>
-                        <div class="v-petal-right">
-                            <div class="v-petal-right-det">
-                            </div>
-                        </div>
-                    </div><!-- v-petal -->
-                </div>
-                <div class="v-position-4">
-                    <div class="v-petal v-deg-180 v-color-4">
-                        <div class="v-petal-top">
-                        </div>
-                        <div class="v-petal-left">
-                            <div class="v-petal-left-det">
-                            </div>
-                        </div>
-                        <div class="v-petal-right">
-                            <div class="v-petal-right-det">
-                            </div>
-                        </div>
-                    </div><!-- v-petal -->
-                </div>
-                <div class="v-position-5">
-                    <div class="v-petal v-deg-240 v-color-5">
-                        <div class="v-petal-top">
-                        </div>
-                        <div class="v-petal-left">
-                            <div class="v-petal-left-det">
-                            </div>
-                        </div>
-                        <div class="v-petal-right">
-                            <div class="v-petal-right-det">
-                            </div>
-                        </div>
-                    </div><!-- v-petal -->
-                </div>
-                <div class="v-position-6">
-                    <div class="v-petal v-deg-300 v-color-6">
-                        <div class="v-petal-top">
-                        </div>
-                        <div class="v-petal-left">
-                            <div class="v-petal-left-det">
-                            </div>
-                        </div>
-                        <div class="v-petal-right">
-                            <div class="v-petal-right-det">
-                            </div>
-                        </div>
-                    </div><!-- v-petal -->
-                </div>
-            </div><!-- //violet-logo -->
-
-          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a><!-- {{ site.title }} -->
-          <ul class="nav">
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
-          </ul>
+    <div class="container">
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="container">
+              <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a><!-- {{ site.title }} -->
+              <ul class="nav">
+                {% assign pages_list = site.pages %}
+                {% assign group = 'navigation' %}
+                {% include JB/pages_list %}
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
     </div>
 
     <div class="container">
