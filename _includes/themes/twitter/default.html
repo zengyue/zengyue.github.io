@@ -121,7 +121,7 @@
                 </div>
             </div><!-- //violet-logo -->
 
-          <a class="brand" href="{{ HOME_PATH }}">HeiNiuhaha</a><!-- {{ site.title }} -->
+          <a class="brand" href="{{ HOME_PATH }}">{{ site.author.name }}</a><!-- {{ site.title }} -->
           <ul class="nav">
             {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}
@@ -145,7 +145,7 @@
       </footer>
 
     </div> <!-- /container -->
-    <a class="v-fork-me" href="https://github.com/{{ site.author.name }}/{{ site.author.name }}.github.io" target="_blank" rel="nofollow">
+    <a class="v-fork-me" href="https://github.com/{{ site.author.github }}/{{ site.author.github }}.github.io" target="_blank" rel="nofollow">
         <img src="/assets/themes/twitter/img/forkme.png" alt="Fork me on GitHub">
     </a>
 
