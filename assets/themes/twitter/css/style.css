@@ -223,6 +223,8 @@ html, body {
 .v-excerpt-title { margin-bottom: 12px; }
 .v-excerpt-title a { font-size: 18px; font-family: "Times New Roman",Times, serif; color: #489620; font-weight: 700; }
 .v-excerpt-title a:hover, .v-post-list .v-post-title a:hover { color: #246105; text-decoration: none; }
+.v-excerpt-desc { margin-bottom: 10px; }
+.v-excerpt-footer{ float: right; margin-top: -10px; }
 .v-excerpt-det { font-size: 13px; line-height: 21px; color: #686868; font-family: Georgia, sans-serif; margin-bottom: 0; }
 .v-excerpt-det p { margin-bottom: 10px; }
 .v-post-list { padding: 8px 30px 8px 20px; border-top: 1px solid #fff; border-bottom: 1px dashed #e8e8e8; }
@@ -234,9 +236,9 @@ html, body {
 }
 .v-post-list .v-post-title { display: inline; line-height: 24px; }
 .v-post-list .v-post-title a { font-size: 16px; line-height: 24px; font-family: "Times New Roman",Times, serif; color: #489620; font-weight: 700; }
+.v-post-list .v-list-footer{ float: right; margin-top: -26px; }
 .v-post-list  p { float: right; display: inline; line-height: 24px; color: #888; }
 
 .violet-about-det{margin-top: 10px;}
 .v-my-face{float: left;margin-right: 20px;}
-.v-more{float:right;margin-top: -14px;}
-.v-date{float:right;margin-left:60px;}
+.v-more,.v-date{ margin-bottom: 0px;}
