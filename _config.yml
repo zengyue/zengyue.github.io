@@ -80,17 +80,17 @@ JB :
   categories_path : /categories.html
   tags_path : /tags.html
   about_path : /about.html
-  
+
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    #provider : disqus
-    provider : false
+    #provider : false
+    provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : zengyue
     livefyre :
       site_id : 123
     intensedebate :
