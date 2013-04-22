@@ -28,3 +28,4 @@ description: "如何使用github+jekyll搭建blog环境"
 最后再附上markdown的语法文档   
 [中文翻译](https://github.com/othree/markdown-syntax-zhtw/blob/master/syntax.md)   
 [英文原版](http://daringfireball.net/projects/markdown/syntax)   
+[中文简体](http://wowubuntu.com/markdown/)  
