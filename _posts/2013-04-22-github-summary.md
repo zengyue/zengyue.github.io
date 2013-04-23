@@ -7,8 +7,9 @@ tags: [github]
 description: "github的使用总结，主要用来记录平时在使用github过程中碰到的问题及解决方法"
 ---
 
-##一篇不错的git教程
-Git Tutorial: [http://www.vogella.com/articles/Git/article.html](http://www.vogella.com/articles/Git/article.html)
+##几篇不错的git教程
+Git Tutorial: [http://www.vogella.com/articles/Git/article.html](http://www.vogella.com/articles/Git/article.html)  
+如何高效利用GitHub: [http://my.oschina.net/roll1987/blog/124068](http://my.oschina.net/roll1987/blog/124068)
 
 ##github api
 在网上看到一张很不错的github的思维导图
