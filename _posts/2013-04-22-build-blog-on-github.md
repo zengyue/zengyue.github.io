@@ -12,7 +12,7 @@ description: "如何使用github+jekyll搭建blog环境"
 请直接移步[搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
 
 当然上面这个一个项目的Pages, 个人Pages的搭建方法：[这个是官方帮助](http://pages.github.com/)    
-个人pages与项目pages不同的是：需创建一个名字为`username.github.io`的仓库(注意：这个username必须为你的用户名),不再使用gh-pages分支，而是直接使用master分支，其他的都类似
+个人pages与项目pages不同的是：需创建一个名字为`username.github.io`的仓库(注意：这个username必须为你的用户名),其他的都类似
 
 当然你可以直接clone别人的blog，可以从[这里](https://github.com/mojombo/jekyll/wiki/Sites)选一个你喜欢的，还可以在[jekyll-bootstrap](http://jekyllbootstrap.com/)基础上搭建
 
