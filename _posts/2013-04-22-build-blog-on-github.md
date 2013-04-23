@@ -14,7 +14,7 @@ description: "如何使用github+jekyll搭建blog环境"
 当然上面这个一个项目的Pages, 个人Pages的搭建方法：[这个是官方帮助](http://pages.github.com/)    
 个人pages与项目pages不同的是：需创建一个名字为`username.github.io`的仓库(注意：这个username必须为你的用户名),其他的都类似
 
-当然你可以直接clone别人的blog，可以从[这里](https://github.com/mojombo/jekyll/wiki/Sites)选一个你喜欢的，还可以在[jekyll-bootstrap](http://jekyllbootstrap.com/)基础上搭建
+或者你可以直接clone别人的blog，可以从[这里](https://github.com/mojombo/jekyll/wiki/Sites)选一个你喜欢的，还可以在[jekyll-bootstrap](http://jekyllbootstrap.com/)基础上搭建
 
 ###jekyll-bootstrap
 [jekyll-bootstrap](http://jekyllbootstrap.com/)就是一个jekyll构建站点的demo，并提供了一些额外的api增强jekyll的功能，在此基础上构建站点相当快捷容易。除此之外，octopress也是基于jekyll上的不错的工具套件。
