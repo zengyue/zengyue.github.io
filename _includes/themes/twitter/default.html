@@ -13,8 +13,8 @@
 
     <!-- Le styles -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
-    <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
-    <link href="{{ ASSET_PATH }}/js/code/prettify.css" rel="stylesheet" type="text/css" media="all">
+    <link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="{{ ASSET_PATH }}/js/prettify/theme/obsidian.css" rel="stylesheet" type="text/css" media="all">
     <!-- Le fav and touch icons -->
   
     <!-- Update these with your own images
@@ -62,6 +62,13 @@
 
     {% include JB/analytics %}
 
-    <script type="text/javascript" src="/assets/themes/twitter/js/code/prettify.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/themes/twitter/js/prettify/prettify.js"></script>
+    <script>
+    (function($){
+      $("pre").addClass("prettyprint");
+      prettyPrint();
+    })(jQuery);
+    </script>
   </body>
 </html>
