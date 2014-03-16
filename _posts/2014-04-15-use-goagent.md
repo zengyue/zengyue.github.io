@@ -12,32 +12,29 @@ description: "使用GoAgent进行翻墙代理"
 
 ## GoAgent的使用方法
 
-### 说明
-> 在使用前必须要有一个Gmail帐号，所以没有的话要先注册一个  
-> [注册Gmail](https://accounts.google.com/SignUp)
-
 ### 1. 申请Gmail帐号
 因为使用的是Google App Engine，是需要用Gmail帐号登录的，所以没有话要先[注册](https://accounts.google.com/SignUp)一个，如果已经有Gmail帐号的话，直接看下一步。
-### 注册appid
+
+### 2. 注册appid
 1. 打开http://appengine.google.com/ ,输入gmail用户密码登入。
 2. 然后点击Create Application进入下一步
 3. 输入自己的手机号
 4. 手机收到验证码后输入，验证成功后 申请完成。
 5. 创建一个appid，比如：abc555，**注意记下这个appid**，后面还会再用到。最后点击Create Application完成整个注册过程。
 
-### 2. 下载GoAgent主程序
+### 3. 下载GoAgent主程序
 1. 进入https://code.google.com/p/goagent/下载GoAgent
 2. 解压并修改`local\proxy.ini`中的[gae]下的appid=你的appid(多appid请用|隔开)
 3. 双击server\uploader.bat 开始上传, 成功后即可使用了(地址127.0.0.1:8087)  
    MacOS/Linux 请在 Terminal 执行 cd server && python uploader.zip  
    (其间需要输入你的appid和gmail的帐号和密码)
 
-### 3. 使用 GoAgent
+### 4. 使用 GoAgent
 * chrome请安装 [SwitchySharp](https://chrome.google.com/webstore/detail/dpplabbmogkhghncfbfdeeokoefdjegm) 插件（拖放SwitchySharp.crx到扩展设置），然后导入 SwitchyOptions.bak
 * firefox请安装 [FoxyProxy](https://addons.mozilla.org/zh-cn/firefox/addon/foxyproxy-standard/) ，Firefox需要导入证书
 * IE/Opera 用户请右击 goagent.exe 托盘图标设置 IE 代理。
 
-### 4. 启动GoAgent
+### 5. 启动GoAgent
 * window下直接动行goagent.exe就可以了
 * mac下cd到local目录下，然后执行`python proxy.py`
 
