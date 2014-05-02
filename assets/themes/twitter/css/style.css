@@ -241,9 +241,9 @@ html, body {
     background: -ms-linear-gradient(-90deg, #ffffff 0%, #fefefe 80%, #f5f5f5 100%);
     background: linear-gradient(-90deg, #ffffff 0, #fefefe 80%, #f5f5f5 100%)
 }
-.v-post-list .v-post-title { display: inline; line-height: 24px; }
+.v-post-list .v-post-title { float: left; margin: 0px; line-height: 24px; }
 .v-post-list .v-post-title a { font-size: 16px; line-height: 24px; font-family: "Times New Roman",Times, serif; color: #489620; font-weight: 700; }
-.v-post-list .v-list-footer{ float: right; margin-top: -26px; }
+.v-post-list .v-list-footer{ float: right;}
 .v-post-list  p { float: right; display: inline; line-height: 24px; color: #888; }
 
 .violet-about-det{margin-top: 10px;}
