@@ -244,7 +244,7 @@ html, body {
 .v-post-list .v-post-title { float: left; margin: 0px; line-height: 24px; }
 .v-post-list .v-post-title a { font-size: 16px; line-height: 24px; font-family: "Times New Roman",Times, serif; color: #489620; font-weight: 700; }
 .v-post-list .v-list-footer{ float: right;}
-.v-post-list  p { float: right; display: inline; line-height: 24px; color: #888; }
+.v-post-list .v-date { width: 84px; line-height: 24px; color: #888;}
 
 .violet-about-det{margin-top: 10px;}
 .v-my-face{float: left;margin-right: 20px;}
