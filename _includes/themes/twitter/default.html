@@ -67,9 +67,9 @@
     <script>
     (function($){
       //在github上code里面会多一个回车，用js去掉
-      $('code').each(function(i, el){
-        $(el).html($(el).html().replace(/^[\s\xa0]+/, ''));
-      });
+      // $('code').each(function(i, el){
+      //   $(el).html($(el).html().replace(/^[\s\xa0]+/, ''));
+      // });
       $("pre").addClass("prettyprint");
       prettyPrint();
     })(jQuery);
