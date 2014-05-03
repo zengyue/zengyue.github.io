@@ -38,6 +38,7 @@ description: "MacOS下Apache和PHP的配置"
 ```
 
 ## https服务的配置
+
 ### 1. 生成主机密钥
 ```
 mkdir /private/etc/apache2/ssl
