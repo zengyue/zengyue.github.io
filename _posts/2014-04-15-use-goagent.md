@@ -24,7 +24,7 @@ description: "使用GoAgent进行翻墙代理"
 
 ### 3. 下载GoAgent主程序
 1. 进入https://code.google.com/p/goagent/下载GoAgent
-2. 解压并修改`local\proxy.ini`中的[gae]下的appid=你的appid(多appid请用|隔开)
+2. 解压并修改`local\proxy.ini`中的[gae]下的appid=你的appid(多appid请用`|`隔开)
 3. 双击server\uploader.bat 开始上传, 成功后即可使用了(地址127.0.0.1:8087)  
    MacOS/Linux 请在 Terminal 执行 cd server && python uploader.zip  
    (其间需要输入你的appid和gmail的帐号和密码)
