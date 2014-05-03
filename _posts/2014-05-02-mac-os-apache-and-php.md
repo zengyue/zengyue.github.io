@@ -44,10 +44,12 @@ mkdir /private/etc/apache2/ssl
 cd /private/etc/apache2/ssl
 sudo ssh-keygen -f server.key
 ```
+
 ### 2. 生成证书请求文件
 ```
 sudo openssl req -new -key server.key -out server.csr
 ```
+
 ### 3. 生成ssl证书
 ```
 sudo openssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt
