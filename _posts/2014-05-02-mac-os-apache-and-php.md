@@ -16,6 +16,8 @@ description: "MacOS下Apache和PHP的配置"
 3. 然后将/etc/php.ini.default复制为/etc/php.ini
 4. 执行`sudo apachectl start`起动就行了
 
+> mac下用户的根目录为`/Users/username/Sites`,在用户目录下面新建一个Sites目录，通过http://127.0.0.1/~username 就可以直访问到该目录
+
 ## 启用虚拟主机
 1. 打开httpd.conf文件
 2. 找到`#Include /private/etc/apache2/extra/httpd-vhosts.conf`，把前面的`#`号去掉
