@@ -23,7 +23,7 @@ This repository tracks 2 projects:
   Small, atomic Features, bugs, etc.   
   Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.   
   Please rebase as often as possible when working.   
-  Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
+  Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work. 
   
   For Big Features or major API extensions/edits:   
   This is the one case where I'll accept pull-requests based off the master branch.
